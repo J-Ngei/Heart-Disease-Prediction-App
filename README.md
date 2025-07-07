@@ -6,7 +6,7 @@ This project predicts the presence or absence of heart disease based on clinical
 
 ## 📊 Dataset
 
-- Source: [Kaggle: Heart Disease Prediction Dataset]
+- Source: [Kaggle: [Heart Disease Prediction Dataset]([url](https://www.kaggle.com/datasets/rishidamarla/heart-disease-prediction))]
 - Records: 270
 - Features: Age, Sex, Chest pain type, Blood pressure, Cholesterol, etc.
 
