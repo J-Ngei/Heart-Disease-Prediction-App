@@ -6,7 +6,7 @@ This project predicts the presence or absence of heart disease based on clinical
 
 ## 📊 Dataset
 
-- Source: [Kaggle Heart Disease Prediction Dataset]([url](https://www.kaggle.com/datasets/rishidamarla/heart-disease-prediction))
+- Source: [Kaggle Heart Disease Prediction Dataset](https://www.kaggle.com/datasets/rishidamarla/heart-disease-prediction)
 - Records: 270
 - Features: Age, Sex, Chest pain type, Blood pressure, Cholesterol, etc.
 
@@ -34,11 +34,29 @@ This project predicts the presence or absence of heart disease based on clinical
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/heart-disease-predictor.git
-cd heart-disease-predictor
+git clone https://github.com/J-Ngei/Heart-Disease-Prediction-App.git
+cd Heart-Disease-Prediction-App
+```
+
+### 2. Create a Virtual Environment (Optional but Recommended)
+``` bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+### 3. Install Required Packages
+``` bash
+pip install -r requirements.txt
+```
+### 4. Run the Streamlit App
+``` bash
+streamlit run heart_disease_app.py
+```
+👤 Author
+
+James Ngei
+
+MSc Software Engineering Student | GIS Specialist | Aspiring ML Engineer
+
+[LinkedIn](https://www.linkedin.com/in/james-ngei-61461b1a5) • [GitHub](https://github.com/J-Ngei)
 
 
-👨‍💻 Author
-James
-🎓 MSc Software Engineering | 🌍 GIS Specialist | 💻 Aspiring Machine Learning Engineer
-📬 Connect on GitHub: J-Ngei
