@@ -1,6 +1,8 @@
 # 🫀 Heart Disease Prediction App
 
-This project predicts the presence or absence of heart disease based on clinical features using machine learning models. The app is built with **Streamlit** and uses a **Logistic Regression** model trained on a structured dataset.
+This machine learning project predicts the likelihood of heart disease in a patient based on clinical features. The app is built using Streamlit and deployed online for real-time predictions.
+
+The project includes data preprocessing, feature encoding, model training and evaluation.
 
 ---
 
@@ -8,15 +10,24 @@ This project predicts the presence or absence of heart disease based on clinical
 
 - Source: [Kaggle Heart Disease Prediction Dataset](https://www.kaggle.com/datasets/rishidamarla/heart-disease-prediction)
 - Records: 270
-- Features: Age, Sex, Chest pain type, Blood pressure, Cholesterol, etc.
+- Features: Age, Sex, Chest pain type, Blood pressure, Cholesterol, Fasting blood sugar, ECG results, Max heart rate etc.
+
+---
+
+## Process
+- Cleaned and preprocessed real-world health dataset
+- Feature encoding and scaling
+- Model training and performance comparison
+- ROC and confusion matrix visualizations
+- Live Streamlit application for user input and prediction
 
 ---
 
 ## 🧠 Models Used
 
-- Logistic Regression (best performer)
-- Random Forest
-- XGBoost
+- 🔹 Logistic Regression
+- 🔸 Random Forest
+- 🔺 XGBoost
 
 ---
 
@@ -30,7 +41,20 @@ This project predicts the presence or absence of heart disease based on clinical
 
 ---
 
-## 🚀 How to Run the App
+## 🔍 Visualizations
+- Confusion Matrix
+- ROC Curve Comparison
+
+---
+
+### 🚀 Deployment
+The application is deployed using Streamlit Cloud.
+
+🔗 [Click here to try it live](https://heart-disease-prediction-app-gdmqpy3cxkpruxcthxdtfn.streamlit.app/)
+
+---
+
+## 🛠️ How to Run the App Locally
 
 ### 1. Clone the repository
 ```bash
