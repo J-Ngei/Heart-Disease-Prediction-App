@@ -24,9 +24,9 @@ This project predicts the presence or absence of heart disease based on clinical
 
 | Model              | Accuracy | ROC AUC |
 |-------------------|----------|---------|
-| Logistic Regression | 0.87     | 0.87    |
-| Random Forest       | 0.80     | 0.80    |
-| XGBoost             | 0.83     | 0.83    |
+| Logistic Regression | 85%     | 0.90    |
+| Random Forest       | 81%     | 0.87    |
+| XGBoost             | 81%     | 0.87    |
 
 ---
 
